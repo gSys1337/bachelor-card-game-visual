@@ -24,7 +24,13 @@ version = "0.3.4"
 features = [
     'Window',
     'Document',
-    'HtmlElement'
+    'HtmlElement',
+    'Navigator',
+    'MediaDevices',
+    'MediaStreamConstraints',
+    'MediaStream',
+    'HtmlMediaElement',
+    'HtmlVideoElement', 
 ]
 
 [dev-dependencies]
