@@ -14,6 +14,9 @@ Imagine a very detailed yet brief summary of this coode
 
 ## 🚴 Usage
 
+Just build with `wasm-pack` and make the `index.html` accessible from a server. Because of some security limitations you can't open it directly inside your browser.
+i.e. use `python -m http.server`. But to make it accessible to other devices you have to setup HTTPS.
+
 ### 🛠️ Build
 
 Since I don't want to use a bundler run:
